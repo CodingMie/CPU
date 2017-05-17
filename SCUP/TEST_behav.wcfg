@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject db_ref_id="1" fp_name="/TEST/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/insMem/IDataOut" type="array">
+      <obj_property name="ElementShortName">IDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDataOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/RdReg1addr" type="array">
+      <obj_property name="ElementShortName">RdReg1addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdReg1addr[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/reg1dataOut" type="array">
+      <obj_property name="ElementShortName">reg1dataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1dataOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/RdReg2addr" type="array">
+      <obj_property name="ElementShortName">RdReg2addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdReg2addr[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/reg2dataOut" type="array">
+      <obj_property name="ElementShortName">reg2dataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2dataOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/alu/ALUopcode" type="array">
+      <obj_property name="ElementShortName">ALUopcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUopcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/alu/rega" type="array">
+      <obj_property name="ElementShortName">rega[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rega[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/alu/regb" type="array">
+      <obj_property name="ElementShortName">regb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">regb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/alu/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/CU/decode" type="array">
+      <obj_property name="ElementShortName">decode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">decode[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/WrRegaddr" type="array">
+      <obj_property name="ElementShortName">WrRegaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WrRegaddr[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/indata" type="array">
+      <obj_property name="ElementShortName">indata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">indata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/register[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/register[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[2][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/register[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[3][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/regFile/register[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[4][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/DataMem/Mem[8]" type="array">
+      <obj_property name="ElementShortName">[8][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem[8][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/DataMem/Mem[9]" type="array">
+      <obj_property name="ElementShortName">[9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem[9][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/DataMem/Mem[10]" type="array">
+      <obj_property name="ElementShortName">[10][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem[10][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/TEST/myCPU/DataMem/Mem[11]" type="array">
+      <obj_property name="ElementShortName">[11][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem[11][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
